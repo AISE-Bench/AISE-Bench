@@ -1,0 +1,25 @@
+【search_org_detail】通过机构ID获取机构详情
+输入：  
+    ids：[str,str, ...]  #id列表
+输出：
+acronyms	array	
+aliases	array	机构别名
+coordinate	array	
+details	array	机构详情
+error	array	
+established	int	成立时间
+external_ids	array	
+geographic_id	string	地理id
+id	string	机构id
+image	string	图片
+introduction	string	简介
+language	string	语言
+latitude	float	纬度
+longitude	float	经度
+name	string	机构名称
+name_en	string	机构英文名称
+name_zh	string	中文名
+relationships	array	
+src	string	数据源
+total	int	返回数据条数
+type	string	机构类型

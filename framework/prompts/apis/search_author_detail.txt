@@ -1,0 +1,2 @@
+【search_author_detail】根据学者ID列表获取学者详情
+输入：ids：[str,str, ...]  #id列表

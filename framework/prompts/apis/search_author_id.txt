@@ -1,0 +1,44 @@
+【search_author_id】
+【请注意：布尔类型的参数的值：True、False需要首字母一定要大写！不允许出现true、false！】
+【请注意：没有指定的话，默认按照引用量排序：order的值为n_citation！】
+    {
+        "type": "function",
+        "function":{
+            "name": "search_author_id",
+            "description": "根据姓名、机构、兴趣、国家等条件搜索学者",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "学者姓名",
+                    },
+                    "org": {
+                        "type": "string",
+                        "description": "学者所在机构",
+                    },
+                    "size": {
+                        "type": "integer",
+                        "description": "返回的学者数量，最大为1000",
+                    },
+                    "interest": {
+                        "type": "list",
+                        "description": "学者兴趣，格式为[str,str,...]"
+                    },
+                    "nation": {
+                        "type": "list",
+                        "description": "学者所在国家，格式为[str,str,...]
+                    },
+                    "order": {
+                        "type": "string",
+                        "description": "排序字段名 n_citation, n_pubs, h_index"
+                    },
+                    "asc": {
+                        "type": "boolean",
+                        "description": "true 升序 false 降序"
+                    }
+                },
+                "required": []
+            }
+        }
+    },
