@@ -1,0 +1,3 @@
+【search_paper_id_gs】借助谷歌学术搜索得到论文id
+输入：  
+    query: "str" # 用户问题

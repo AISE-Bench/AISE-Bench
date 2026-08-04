@@ -1,0 +1,173 @@
+[
+  {
+    "category": "academic",
+    "name": "search_paper_id",
+    "description": "The 'search_paper_id' tool is designed to search for academic papers and return their IDs based on specified criteria. It requires a list of keywords and provides optional parameters to refine the search. These parameters include filtering by publication years, limiting the number of results, specifying authors or institutions, including specific co-authors, filtering for SCI papers, specifying the language of the papers, determining the sorting order of results, and filtering by journals or conferences. The tool supports complex queries with multiple filters to tailor search results to specific needs, ensuring results are relevant to the user's criteria, such as language, author, and sorting order. Results can be sorted by relevance or other specified orders, and the tool can handle queries that specify institutions and venues, ensuring that results are SCI papers and written in a specified language.",
+    "required_parameters": {
+      "keywords": "论文关键词列表"
+    },
+    "optional_parameters": {
+      "years": "发表年份列表",
+      "size": "返回结果数量",
+      "coauthors": "共同作者列表",
+      "is_sci": "是否为SCI论文",
+      "language": "论文语言",
+      "sort": "排序方式",
+      "author": "作者姓名",
+      "author_id": "作者ID",
+      "org": "机构名称",
+      "org_id": "机构ID",
+      "venues": "期刊或会议列表",
+      "venue_ids": "期刊或会议ID列表"
+    },
+    "optimization_history": [
+      "根据关键词搜索论文ID",
+      "This tool is designed to search for academic papers and return their IDs based on specified criteria. It requires a list of keywords to function and offers several optional parameters to refine the search. Optional parameters include 'years' to filter papers published within specific years, 'size' to limit the number of results, 'author' and 'author_id' to filter by specific authors, and 'org' and 'org_id' to filter by institutions. Additional filters include 'coauthors', 'is_sci' for SCI papers, 'language', 'sort' for sorting order, 'venues', and 'venue_ids'. The tool supports complex queries combining multiple criteria to tailor search results to specific needs.",
+      "The 'search_paper_id' tool is designed to search for academic papers and return their IDs based on specified criteria. It requires a list of keywords and offers optional parameters to refine the search. These parameters include filtering by publication years, limiting the number of results, specifying authors or institutions, including specific co-authors, filtering for SCI papers, specifying the language of the papers, determining the sorting order of results, and filtering by journals or conferences. The tool supports complex queries with multiple filters to tailor search results to specific needs, such as language, author, and sorting order, and can return results in a specified order, such as newest first.",
+      "The 'search_paper_id' tool is designed to search for academic papers and return their IDs based on specified criteria. It requires a list of keywords and provides optional parameters to refine the search. These parameters include filtering by publication years, limiting the number of results, specifying authors or institutions, including specific co-authors, filtering for SCI papers, specifying the language of the papers, determining the sorting order of results, and filtering by journals or conferences. The tool supports complex queries with multiple filters to tailor search results to specific needs, ensuring results are relevant to the user's criteria, such as language, author, and sorting order. Results can be sorted by relevance or other specified orders, and the tool can handle queries that specify institutions and venues, ensuring that results are SCI papers and written in a specified language."
+    ],
+    "optimization_rounds": 3
+  },
+  {
+    "category": "academic",
+    "name": "search_paper_detail",
+    "description": "The 'search_paper_detail' tool retrieves comprehensive information about academic papers using specified paper IDs. It provides essential details such as the title, authors, abstract, and publication date. The tool requires a list of paper IDs as input and does not support optional parameters. Accurate paper IDs are crucial for ensuring correct information retrieval. This tool is particularly useful for researchers conducting academic research or literature reviews who need to quickly gather insights into specific papers. Users should verify the accuracy of paper IDs before using the tool to avoid unexpected results.",
+    "required_parameters": {
+      "paper_ids": "论文ID列表"
+    },
+    "optional_parameters": {},
+    "optimization_history": [
+      "根据论文ID获取论文详情",
+      "This tool retrieves detailed information about academic papers using provided paper IDs. It returns details such as the title, authors, abstract, and publication date, which are useful for researchers conducting academic research or literature reviews.",
+      "This tool provides detailed information about academic papers by using specified paper IDs. It returns key details including the title, authors, abstract, and publication date. This tool is essential for researchers who are conducting academic research or performing literature reviews. The tool requires a list of paper IDs as input and does not support optional parameters.",
+      "The 'search_paper_detail' tool is designed to retrieve comprehensive information about academic papers using specified paper IDs. It provides essential details such as the title, authors, abstract, and publication date, which are crucial for researchers conducting academic research or literature reviews. The tool requires a list of paper IDs as input and does not support optional parameters. Accurate paper IDs are necessary to ensure the retrieval of correct information. This tool is particularly beneficial for those seeking to quickly and efficiently gather detailed insights into specific academic papers.",
+      "The 'search_paper_detail' tool retrieves detailed information about academic papers using specified paper IDs. It provides key details such as the title, authors, abstract, and publication date. The tool requires a list of paper IDs as input and does not support optional parameters. Accurate paper IDs are necessary to ensure correct information retrieval. This tool is particularly useful for researchers conducting academic research or literature reviews who need to quickly gather insights into specific papers.",
+      "The 'search_paper_detail' tool retrieves comprehensive information about academic papers using specified paper IDs. It provides essential details such as the title, authors, abstract, and publication date. The tool requires a list of paper IDs as input and does not support optional parameters. Accurate paper IDs are crucial for ensuring correct information retrieval. This tool is particularly useful for researchers conducting academic research or literature reviews who need to quickly gather insights into specific papers. Users should verify the accuracy of paper IDs before using the tool to avoid unexpected results."
+    ],
+    "optimization_rounds": 5
+  },
+  {
+    "category": "academic",
+    "name": "search_venue_id",
+    "description": "This tool enables users to retrieve unique identifiers (IDs) for academic journals or conferences by providing their names. The 'name' parameter is mandatory and must be a list of names, even if it contains only one entry. The tool returns a list of IDs corresponding to the provided names. If a name matches multiple entries, multiple IDs may be returned. If no matches are found for a given name, the tool will return an empty list. An optional 'size' parameter can be used to limit the number of results returned for each name. Setting 'size' to 0 will result in no IDs being returned. This tool is useful for verifying the existence of publication venues and managing academic databases.",
+    "required_parameters": {
+      "name": "期刊或会议名称列表"
+    },
+    "optional_parameters": {
+      "size": "返回结果数量"
+    },
+    "optimization_history": [
+      "根据名称搜索期刊或会议ID",
+      "This tool allows you to search for the IDs of journals or conferences by providing their names. The 'name' parameter is required and should be a list of journal or conference names, even if it contains only one name. The tool returns the IDs corresponding to the provided names. If multiple matches are found, multiple IDs may be returned. An optional 'size' parameter can be used to limit the number of results returned.",
+      "This tool enables users to retrieve the unique identifiers (IDs) of academic journals or conferences by inputting their names. The 'name' parameter is mandatory and must be a list of names, even if it contains only one entry. The tool outputs the corresponding IDs for the provided names. In cases where a name matches multiple entries, multiple IDs may be returned. The optional 'size' parameter allows users to specify the maximum number of results to be returned for each name. This tool is particularly useful for academic research and database management where precise identification of publication venues is required.",
+      "This tool allows users to retrieve unique identifiers (IDs) for academic journals or conferences by providing their names. The 'name' parameter is required and must be a list of names, even if it contains only one entry. The tool returns a list of IDs corresponding to the provided names. If a name matches multiple entries, multiple IDs may be returned. If a name does not match any known venue, the tool will return an empty result or indicate that no matches were found. An optional 'size' parameter can be used to limit the number of results returned for each name. This tool is useful for verifying the existence of publication venues and managing academic databases.",
+      "This tool enables users to retrieve unique identifiers (IDs) for academic journals or conferences by providing their names. The 'name' parameter is mandatory and must be a list of names, even if it contains only one entry. The tool returns a list of IDs corresponding to the provided names. If a name matches multiple entries, multiple IDs may be returned. If no matches are found for a given name, the tool will return an empty list. An optional 'size' parameter can be used to limit the number of results returned for each name. Setting 'size' to 0 will result in no IDs being returned. This tool is useful for verifying the existence of publication venues and managing academic databases."
+    ],
+    "optimization_rounds": 4
+  },
+  {
+    "category": "academic",
+    "name": "search_venue_detail",
+    "description": "This tool retrieves detailed information about academic journals or conferences using their unique IDs. The required parameter is 'venue_ids', which is a list of IDs representing the journals or conferences of interest. The tool returns comprehensive details including the name, location, impact factor, ranking in major databases, and other relevant information about the specified venues. It is crucial to ensure that the provided venue_ids are valid and correspond to existing academic venues.",
+    "required_parameters": {
+      "venue_ids": "期刊或会议ID列表"
+    },
+    "optional_parameters": {},
+    "optimization_history": [
+      "根据期刊或会议ID获取详情",
+      "This tool retrieves detailed information about academic journals or conferences based on their IDs. Required parameter: venue_ids (a list of journal or conference IDs). The tool returns details such as the name, location, impact factor, and other relevant information about the specified venues.",
+      "This tool provides detailed information about academic journals or conferences using their unique IDs. The required parameter is 'venue_ids', which is a list of IDs representing the journals or conferences of interest. The tool returns comprehensive details including the name, location, impact factor, ranking in major databases, and other pertinent information about the specified venues. It is important to ensure that the provided venue_ids are valid and correspond to existing academic venues.",
+      "This tool retrieves detailed information about academic journals or conferences using their unique IDs. The required parameter is 'venue_ids', which is a list of IDs representing the journals or conferences of interest. The tool returns comprehensive details including the name, location, impact factor, ranking in major databases, and other relevant information about the specified venues. It is crucial to ensure that the provided venue_ids are valid and correspond to existing academic venues."
+    ],
+    "optimization_rounds": 3
+  },
+  {
+    "category": "academic",
+    "name": "search_author_id",
+    "description": "This tool allows users to search for author IDs by providing the author's name. Users can optionally specify the author's organization(s) and the maximum number of results to return. The tool returns a list of author IDs that match the specified criteria. The 'org' parameter can accept multiple organizations separated by commas, and the 'size' parameter determines the maximum number of author IDs returned. The tool is effective even if the user's knowledge of the author's organization is incomplete or uncertain, and it can return results even if no organization is specified.",
+    "required_parameters": {
+      "name": "作者姓名"
+    },
+    "optional_parameters": {
+      "org": "作者机构",
+      "size": "返回结果数量"
+    },
+    "optimization_history": [
+      "根据姓名搜索作者ID",
+      "This tool allows users to search for author IDs by providing the author's name. Optional parameters include the author's organization and the number of results to return. The tool outputs author IDs that match the given criteria.",
+      "This tool enables users to search for author IDs by providing the author's name. Users can optionally specify the author's organization(s) and the maximum number of results to return. The tool returns a list of author IDs that match the specified criteria. The 'org' parameter can accept multiple organizations separated by commas, and the 'size' parameter determines the maximum number of author IDs returned.",
+      "This tool allows users to search for author IDs by providing the author's name. Users can optionally specify the author's organization(s) and the maximum number of results to return. The tool returns a list of author IDs that match the specified criteria. The 'org' parameter can accept multiple organizations separated by commas, and the 'size' parameter determines the maximum number of author IDs returned. The tool is effective even if the user's knowledge of the author's organization is incomplete or uncertain.",
+      "This tool allows users to search for author IDs by providing the author's name. Users can optionally specify the author's organization(s) and the maximum number of results to return. The tool returns a list of author IDs that match the specified criteria. The 'org' parameter can accept multiple organizations separated by commas, and the 'size' parameter determines the maximum number of author IDs returned. The tool is effective even if the user's knowledge of the author's organization is incomplete or uncertain, and it can return results even if no organization is specified."
+    ],
+    "optimization_rounds": 4
+  },
+  {
+    "category": "academic",
+    "name": "search_author_detail",
+    "description": "This tool retrieves comprehensive information about authors using their IDs. It provides details such as the author's research fields, published papers, academic institutions, citation counts, and collaboration information with other authors. The tool accepts a list of author IDs as input, enabling users to obtain information for multiple authors in a single query.",
+    "required_parameters": {
+      "author_ids": "作者ID列表"
+    },
+    "optional_parameters": {},
+    "optimization_history": [
+      "根据作者ID获取作者详情",
+      "This tool retrieves detailed information about authors based on their IDs. It provides details such as the author's research fields, published papers, and other relevant academic information. The tool accepts a list of author IDs as input, allowing users to obtain information for multiple authors in a single query.",
+      "This tool retrieves comprehensive information about authors using their IDs. It provides details such as the author's research fields, published papers, academic institutions, citation counts, and collaboration information with other authors. The tool accepts a list of author IDs as input, enabling users to obtain information for multiple authors in a single query."
+    ],
+    "optimization_rounds": 2
+  },
+  {
+    "category": "academic",
+    "name": "search_org_id",
+    "description": "该工具用于根据用户提供的机构名称进行搜索，并返回相关的机构ID。用户必须提供机构名称作为必需参数。工具支持模糊搜索，允许用户在不确定拼写的情况下查找机构。用户可以通过可选参数'size'指定返回结果的数量，默认情况下返回一个结果。该工具支持多语言搜索，能够返回多个相关机构的ID，以帮助用户获取更多信息。",
+    "required_parameters": {
+      "name": "机构名称"
+    },
+    "optional_parameters": {
+      "size": "返回结果数量"
+    },
+    "optimization_history": [
+      "根据名称搜索机构ID",
+      "该工具用于根据提供的机构名称搜索并返回对应的机构ID。用户需要提供机构名称作为必需参数，并可以选择指定返回结果的数量，默认为一个结果。",
+      "该工具用于根据用户提供的机构名称搜索并返回相关的机构ID。用户必须提供机构名称作为必需参数，并可以选择指定返回结果的数量，默认情况下返回一个结果。该工具支持返回多个相关机构的ID，以帮助用户获取更多信息。",
+      "该工具用于根据用户提供的机构名称进行搜索，并返回相关的机构ID。用户必须提供机构名称作为必需参数。工具支持模糊搜索，允许用户在不确定拼写的情况下查找机构。用户可以通过可选参数'size'指定返回结果的数量，默认情况下返回一个结果，以获取多个相关机构的ID。",
+      "该工具用于根据用户提供的机构名称进行搜索，并返回相关的机构ID。用户必须提供机构名称作为必需参数。工具支持模糊搜索，允许用户在不确定拼写的情况下查找机构。用户可以通过可选参数'size'指定返回结果的数量，默认情况下返回一个结果。该工具能够返回多个相关机构的ID，以帮助用户获取更多信息。",
+      "该工具用于根据用户提供的机构名称进行搜索，并返回相关的机构ID。用户必须提供机构名称作为必需参数。工具支持模糊搜索，允许用户在不确定拼写的情况下查找机构。用户可以通过可选参数'size'指定返回结果的数量，默认情况下返回一个结果。该工具支持多语言搜索，能够返回多个相关机构的ID，以帮助用户获取更多信息。"
+    ],
+    "optimization_rounds": 5
+  },
+  {
+    "category": "academic",
+    "name": "search_org_detail",
+    "description": "This tool retrieves detailed information about organizations using their unique IDs. It requires a list of organization IDs as input to provide comprehensive details such as background, historical records, financial data, key personnel information, and other relevant data. Designed for academic use, it offers in-depth insights into the specified organizations.",
+    "required_parameters": {
+      "org_ids": "机构ID列表"
+    },
+    "optional_parameters": {},
+    "optimization_history": [
+      "根据机构ID获取机构详情",
+      "This tool is used to retrieve detailed information about organizations by using their unique IDs. It requires a list of organization IDs as input to fetch the corresponding details.",
+      "This tool retrieves comprehensive information about organizations using their unique IDs. It requires a list of organization IDs as input to provide details such as background, historical records, and other relevant data. Designed for academic use, it offers in-depth insights into the specified organizations.",
+      "This tool retrieves detailed information about organizations using their unique IDs. It requires a list of organization IDs as input to provide comprehensive details such as background, historical records, financial data, key personnel information, and other relevant data. Designed for academic use, it offers in-depth insights into the specified organizations."
+    ],
+    "optimization_rounds": 3
+  },
+  {
+    "category": "academic",
+    "name": "search_paper_id_gs",
+    "description": "search_paper_id_gs工具用于在Google Scholar上检索学术论文的唯一标识符（ID）。用户需要提供一个查询字符串，该字符串可以包含研究主题、领域、作者或发表年份等信息。工具将返回与查询匹配的论文ID列表，帮助用户快速找到相关文献。返回的ID是一个列表格式。请注意，该工具仅返回论文的ID，不提供论文的详细信息或全文链接。工具支持简单查询，但不支持复杂查询或布尔运算符。",
+    "required_parameters": {
+      "query": "用户查询字符串"
+    },
+    "optional_parameters": {},
+    "optimization_history": [
+      "使用Google Scholar搜索论文ID",
+      "search_paper_id_gs工具用于在Google Scholar上搜索学术论文的唯一标识符（ID）。用户需要提供一个查询字符串，该字符串应描述他们感兴趣的研究主题或领域。工具将返回与查询相关的论文ID，帮助用户快速定位相关文献。",
+      "search_paper_id_gs工具用于在Google Scholar上搜索学术论文的唯一标识符（ID）。用户需要提供一个描述研究主题或领域的查询字符串。工具将返回与查询相关的论文ID列表，帮助用户快速定位相关文献。请注意，该工具仅返回论文的ID，而不提供论文的详细信息或全文链接。",
+      "search_paper_id_gs工具用于在Google Scholar上检索学术论文的唯一标识符（ID）。用户需要提供一个查询字符串，该字符串可以包含研究主题、领域或作者的相关信息。工具将返回与查询匹配的论文ID列表，帮助用户快速找到相关文献。请注意，该工具仅返回论文的ID，不提供论文的详细信息或全文链接。",
+      "search_paper_id_gs工具用于在Google Scholar上检索学术论文的唯一标识符（ID）。用户需要提供一个查询字符串，该字符串可以包含研究主题、领域、作者或发表年份等信息。工具将返回与查询匹配的论文ID列表，帮助用户快速找到相关文献。请注意，该工具仅返回论文的ID，不提供论文的详细信息或全文链接。",
+      "search_paper_id_gs工具用于在Google Scholar上检索学术论文的唯一标识符（ID）。用户需要提供一个查询字符串，该字符串可以包含研究主题、领域、作者或发表年份等信息。工具将返回与查询匹配的论文ID列表，帮助用户快速找到相关文献。返回的ID是一个列表格式。请注意，该工具仅返回论文的ID，不提供论文的详细信息或全文链接。工具支持简单查询，但不支持复杂查询或布尔运算符。"
+    ],
+    "optimization_rounds": 5
+  }
+]

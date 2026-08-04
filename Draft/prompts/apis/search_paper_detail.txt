@@ -1,0 +1,6 @@
+"search_paper_detail": {
+    "description": "根据ID搜索论文详情",
+    "parameters": {
+        paper_ids: ["论文ID"] 
+    },                   
+},

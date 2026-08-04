@@ -1,0 +1,14 @@
+backoff==2.2.1
+bitsandbytes==0.38.1
+fastapi==0.110.0
+gradio==3.23.0
+numpy==1.24.3
+openai==1.35.3
+openapi-schema-pydantic==1.2.4
+PyYAML==6.0.1
+requests==2.31.0
+tenacity==8.2.2
+torch==2.4.0
+tqdm==4.66.4
+transformers==4.28.1
+slowapi==0.1.9

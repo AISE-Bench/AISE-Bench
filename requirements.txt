@@ -1,0 +1,11 @@
+openai
+streamlit
+requests
+httpx
+numpy
+tqdm
+typing-extensions
+langid
+beautifulsoup4
+lxml
+serpapi

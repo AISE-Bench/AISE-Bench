@@ -1,0 +1,10 @@
+【search_venue_id】根据期刊名称搜索期刊ID、期刊标准名称
+输入： 
+    name：str  #期刊名称
+    name_search_type：str  #可选值: "fuzzy" 或 "exact"，默认为 "fuzzy" fuzzy为模糊搜索，exact为精确搜索
+    category：str  #学科分类名称
+    category_source:str # 传递数字形式字符串，不同的数字的含义如下： 0: "SJR", 1: "WOS", 2: "GB09", 3: "CCF", 4: "CSCD", 5: "CCJ", 6: "ARXIV", 7: "CJCR", 8: "JCR", 9: "SCI"
+    quartile：str  #期刊分区搜索 如"1区", "A", "Q1"
+    keywords：list  #期刊关键词列表
+    size：number  #返回的期刊数量
+输出：期刊id

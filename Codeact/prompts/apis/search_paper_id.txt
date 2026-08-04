@@ -1,0 +1,44 @@
+【请注意：布尔类型的参数的值：True、False需要首字母一定要大写！不允许出现true、false！】
+    "search_paper_id": {
+        "description": "根据条件搜索论文ID",
+        "parameters": {
+            "titles": ["论文标题"], 
+            "keywords": ["关键词"], 
+            "years": {
+                "type": "array",
+                "description": "发表年份列表, 年份用整数表示"
+            },
+            "is_sci": {
+                "type": "boolean",
+                "description": "是否为SCI论文"
+            },
+            "language": "论文语言(str), 使用ISO 639-1标准如'en', 'zh'",
+            "sort": "排序方式(str)，只能选择: year, citation",
+            "author": "作者姓名(str)",
+            "author_id": "作者ID(str)",
+            "coauthors": {
+                "type": "array",
+                "description": "共同作者姓名列表，指的是不包括author参数作者的其他作者"
+            },
+            "org": "机构或学校名称(str)",
+            "org_id": "机构或学校ID(str)",
+            "venues": {
+                "type": "array",
+                "description": "期刊或会议列表，使用英文小写缩写，不需要带年份"            
+            },
+            "venue_ids": ["期刊或会议ID"], 
+            "size": {
+                "type": "integer",
+                "description": "返回结果数量，最大是100"                   
+            }
+        },
+        "response": {
+            "description": "返回结果列表, 每个元素为一个字典(代表一篇论文)",
+            "data": [
+                {
+                    "paper_id": "论文ID(str)",
+                    "title": "论文标题(str)"
+                }
+            ]
+        }                     
+    },

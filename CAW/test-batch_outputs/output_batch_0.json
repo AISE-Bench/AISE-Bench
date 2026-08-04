@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "清华唐杰的合作者有哪些?",
+    "plan": "[\n    {\n        \"name\": \"search_author_id\",\n        \"rely\": [],\n        \"order\": 1,\n        \"params\": {\n            \"name\": \"Jie Tang\",\n            \"org\": \"Tsinghua University\"\n        }\n    },\n    {\n        \"name\": \"search_paper_id\",\n        \"rely\": [\n            \"search_author_id\"\n        ],\n        \"order\": 2,\n        \"params\": {\n            \"author_id\": [],\n            \"sort\": \"citation\",\n            \"size\": 10\n        }\n    },\n    {\n        \"name\": \"search_paper_detail\",\n        \"rely\": [\n            \"search_paper_id\"\n        ],\n        \"order\": 3,\n        \"params\": {\n            \"paper_ids\": []\n        }\n    }\n]",
+    "execution_result": [
+      {
+        "search_author_id": {
+          "name": "Jie Tang",
+          "org": "Tsinghua University"
+        },
+        "search_paper_id": {
+          "author_id": "53f46a3edabfaee43ed05f08",
+          "sort": "citation",
+          "size": 10
+        },
+        "search_paper_detail": {
+          "paper_ids": [
+            "5390a05a20f70186a0e4a81d",
+            "5ee8986f91e011e66831c59b",
+            "6054872891e0116f82f2d766",
+            "628749175aee126c0ffe1dc1",
+            "6168f1a35244ab9dcbe2ffc6",
+            "6054886a91e0116f82f2d77f",
+            "5390a4cc20f70186a0e75039",
+            "6405a5bee368bb303e8c93ab",
+            "60cac58091e011b32937404d",
+            "5eede0b091e0116a23aafbd3"
+          ]
+        }
+      },
+      {
+        "search_author_id": {
+          "success": true,
+          "msg": "",
+          "data": [
+            {
+              "id": "53f46a3edabfaee43ed05f08",
+              "interests": [
+                "Topic Modeling",
+                "Social Network",
+                "Language Modeling",
+                "Social Influence",
+                "Graph Neural Networks"
+              ],
+              "n_citation": 67584,
+              "name": "Jie Tang",
+              "org": "Department of Computer Science and Technology, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860",
+              "nation": "China"
+            },
+            {
+              "id": "560495f645cedb3396424f1e",
+              "interests": [
+                "Carbon Nanotube",
+                "Nickel",
+                "Nitrogen",
+                "Luminescent Devices",
+                "Carbon Nanotubes"
+              ],
+              "n_citation": 485,
+              "name": "Jie Tang",
+              "org": "Department of Engineering Physics, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860"
+            },
+            {
+              "id": "63d2b3ec05c031000167a216",
+              "interests": [
+                "Carbon Nanotube",
+                "Field Emission",
+                "Pixel Tube",
+                "Enantiomeric Excess",
+                "Asymmetric Synthesis"
+              ],
+              "n_citation": 26,
+              "name": "TANG Jie",
+              "org": "Department of Physics and Tsinghua-Foxconn Nanotechnology Research Center, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860"
+            },
+            {
+              "id": "63274e6da95e4d1d0557aab2",
+              "interests": [
+                "Subframe Component",
+                "Squeeze Casting",
+                "Process Design",
+                "Microstructure And Mechanical Properties"
+              ],
+              "n_citation": 20,
+              "name": "Jie Tang",
+              "org": "tsinghua university",
+              "org_id": "5f71b2881c455f439fe3c860"
+            },
+            {
+              "id": "5440bf36dabfaece907b407b",
+              "interests": [
+                "Linux",
+                "Modbus",
+                "Computer Control System",
+                "Control Strategy",
+                "Auto Configuration"
+              ],
+              "n_citation": 4,
+              "name": "Jie Tang",
+              "org": "Dept.of Automation, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860",
+              "nation": "China"
+            },
+            {
+              "id": "62e3aeabd9f2043704e3acc8",
+              "interests": [
+                "Rijke Tube",
+                "Active Control",
+                "Adaptive Control",
+                "Thermoacoustic Oscillations",
+                "Dynamic Compensation"
+              ],
+              "n_citation": 4,
+              "name": "Hao-jie TANG",
+              "org": "Key Lab for Thermal Science and Power Engineering, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860"
+            },
+            {
+              "id": "62e3846cd9f2043704c9acc6",
+              "interests": [
+                "Ebsd",
+                "Superplasticity",
+                "Two-Stage Tensile Test",
+                "Ti-15-3 Alloy"
+              ],
+              "n_citation": 2,
+              "name": "Tang Jie",
+              "org": "Department of Material Science and Technology, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860"
+            },
+            {
+              "id": "53f468a6dabfaee43ecff8fa",
+              "interests": [
+                "Asymmetric Synthesis",
+                "Enantioselective Synthesis",
+                "Diversity-Oriented Synthesis",
+                "Quantum Entanglement",
+                "Sky-Hook Damper"
+              ],
+              "n_citation": 165,
+              "name": "J. S. Tang",
+              "org": "Department of Computer Science and Technology, Tsinghua University",
+              "org_id": "5f71b2881c455f439fe3c860"
+            }
+          ],
+          "total": 8,
+          "log_id": "38TLFiWpqdMpCOPWzDEI6dwvWnn"
+        },
+        "search_paper_id": {
+          "data": {
+            "paper_ids": [
+              "5390a05a20f70186a0e4a81d",
+              "5ee8986f91e011e66831c59b",
+              "6054872891e0116f82f2d766",
+              "628749175aee126c0ffe1dc1",
+              "6168f1a35244ab9dcbe2ffc6",
+              "6054886a91e0116f82f2d77f",
+              "5390a4cc20f70186a0e75039",
+              "6405a5bee368bb303e8c93ab",
+              "60cac58091e011b32937404d",
+              "5eede0b091e0116a23aafbd3"
+            ]
+          }
+        },
+        "search_paper_detail": {
+          "data": [
+            {
+              "paper_id": "5390a05a20f70186a0e4a81d",
+              "citation": 3064,
+              "title": "ArnetMiner: Extraction and Mining of Academic Social Networks.",
+              "authors": [
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua University",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Jing Zhang",
+                  "author_id": "53f48d0adabfaea88777b455",
+                  "org": "Tsinghua University",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Limin Yao",
+                  "author_id": "53f44128dabfaeecd699d18b",
+                  "org": "Tsinghua University",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Juan-Zi Li",
+                  "author_id": "5619120945cedb3397d40ba0",
+                  "org": "Tsinghua University",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                }
+              ],
+              "abstract": "This paper addresses several key issues in the ArnetMiner system, which aims at extracting and mining academic social networks. Specifically, the system focuses on: 1) Extracting researcher profiles automatically from the Web; 2) Integrating the publication data into the network from existing digital libraries; 3) Modeling the entire academic network; and 4) Providing search services for the academic network. So far, 448,470 researcher profiles have been extracted using a unified tagging approach. We integrate publications from online Web databases and propose a probabilistic framework to deal with the name ambiguity problem. Furthermore, we propose a unified modeling approach to simultaneously model topical aspects of papers, authors, and publication venues. Search services such as expertise search and people association search have been provided based on the modeling results. In this paper, we describe the architecture and main features of the system. We also present the empirical evaluation of the proposed methods.",
+              "keywords": [
+                "Web Data Extraction",
+                "Extraction"
+              ],
+              "venue": "Proceedings of the 17th international conference on World Wide Web",
+              "year": 2008
+            },
+            {
+              "paper_id": "5ee8986f91e011e66831c59b",
+              "citation": 2709,
+              "title": "Self-Supervised Learning: Generative or Contrastive.",
+              "authors": [
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing 100190, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "liuxiao17@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Fanjin Zhang",
+                  "author_id": "5d415c0c7390bff0db70c4b0",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing 100190, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhenyu Hou",
+                  "author_id": "645afe25c81747b42a805d7a",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing 100190, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "hzy17@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Li Mian",
+                  "author_id": "64dbf4948a47b67785712212",
+                  "org": "Beijing Inst Technonl, Beijing 100811, Peoples R China",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Zhaoyu Wang",
+                  "author_id": "53f42a60dabfaec22b9e89d3",
+                  "org": "Anhui Univ, Hefei 230093, Anhui, Peoples R China",
+                  "org_id": "5f71b2af1c455f439fe3d848",
+                  "email": ""
+                },
+                {
+                  "author": "Jing Zhang",
+                  "author_id": "53f48d0adabfaea88777b455",
+                  "org": "Renmin Univ China, Beijing 100872, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": "zhang-jing@ruc.edu.cn"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing 100190, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "Deep supervised learning has achieved great success in the last decade. However, its defects of heavy dependence on manual labels and vulnerability to attacks have driven people to find other paradigms. As an alternative, self-supervised learning (SSL) attracts many researchers for its soaring performance on representation learning in the last several years. Self-supervised representation learning leverages input data itself as supervision and benefits almost all types of downstream tasks. In this survey, we take a look into new self-supervised learning methods for representation in computer vision, natural language processing, and graph learning. We comprehensively review the existing empirical methods and summarize them into three main categories according to their objectives: generative, contrastive, and generative-contrastive (adversarial). We further collect related theoretical analysis on self-supervised learning to provide deeper thoughts on why self-supervised learning works. Finally, we briefly discuss open problems and future directions for self-supervised learning. An outline slide for the survey is provided(1).",
+              "keywords": [
+                "Self-supervised learning",
+                "generative model",
+                "contrastive learning",
+                "deep learning"
+              ],
+              "venue": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+              "year": 2023
+            },
+            {
+              "paper_id": "6054872891e0116f82f2d766",
+              "citation": 1984,
+              "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+              "authors": [
+                {
+                  "author": "Zhengxiao Du",
+                  "author_id": "5d415bcd7390bff0db7097f3",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "zx-du20@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yujie Qian",
+                  "author_id": "60bd95524c775e049703e43a",
+                  "org": "MIT, CSAIL, Cambridge, MA 02139 USA",
+                  "org_id": "62331e350a6eb147dca8a7ec",
+                  "email": "yujieq@csail.mit.edu"
+                },
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Ming Ding",
+                  "author_id": "561d197f45cedb339803d282",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Jiezhong Qiu",
+                  "author_id": "562d41dd45cedb3398da2eba",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhilin Yang",
+                  "author_id": "54094295dabfae450f4707e4",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "zhiliny@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "There have been various types of pretraining architectures including autoencoding models (e.g., BERT), autoregressive models (e.g., GPT), and encoder-decoder models (e.g., T5). However, none of the pretraining frameworks performs the best for all tasks of three main categories including natural language understanding (NLU), unconditional generation, and conditional generation. We propose a General Language Model (GLM) based on autoregressive blank infilling to address this challenge. GLM improves blank filling pretraining by adding 2D positional encodings and allowing an arbitrary order to predict spans, which results in performance gains over BERT and T5 on NLU tasks. Meanwhile, GLM can be pretrained for different types of tasks by varying the number and lengths of blanks. On a wide range of tasks across NLU, conditional and unconditional generation, GLM outperforms BERT, T5, and GPT given the same model sizes and data, and achieves the best performance from a single pretrained model with 1.25x parameters of BERT Large , demonstrating its generalizability to different downstream tasks.",
+              "keywords": [
+                "Language Modeling",
+                "Topic Modeling",
+                "Sequence-to-Sequence Learning",
+                "Neural Machine Translation",
+                "Syntax-based Translation Models"
+              ],
+              "venue": "PROCEEDINGS OF THE 60TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2022), VOL 1 (LONG PAPERS)",
+              "year": 2022
+            },
+            {
+              "paper_id": "628749175aee126c0ffe1dc1",
+              "citation": 1927,
+              "title": "P-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks",
+              "authors": [
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "liuxiao21@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Kaixuan Ji",
+                  "author_id": "63156db3cd729caec63751ed",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jkx19@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yicheng Fu",
+                  "author_id": "62e8b59ed9f20422f0bffdad",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "fyc19@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Weng Lam Tam",
+                  "author_id": "53f3198edabfae9a8442c41e",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhengxiao Du",
+                  "author_id": "5d415bcd7390bff0db7097f3",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhilin Yang",
+                  "author_id": "54094295dabfae450f4707e4",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "zhiliny@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, KEG, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "Prompt tuning, which only tunes continuous prompts with a frozen language model, substantially reduces per-task storage and memory usage at training. However, in the context of NLU, prior work reveals that prompt tuning does not perform well for normal-sized pretrained models. We also find that existing methods of prompt tuning cannot handle hard sequence labeling tasks, indicating a lack of universality. We present a novel empirical finding that properly optimized prompt tuning can be universally effective across a wide range of model scales and NLU tasks. It matches the performance of finetuning while having only 0.1%-3% tuned parameters. Our method P-Tuning v2 is an implementation of Deep Prompt Tuning (CITATION) optimized and adapted for NLU. Given the universality and simplicity of P-Tuning v2, we believe it can serve as an alternative to finetuning and a strong baseline for future research.",
+              "keywords": [
+                "Topic Modeling",
+                "Language Modeling",
+                "Neural Machine Translation"
+              ],
+              "venue": "PROCEEDINGS OF THE 60TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2022) (SHORT PAPERS), VOL 2",
+              "year": 2022
+            },
+            {
+              "paper_id": "6168f1a35244ab9dcbe2ffc6",
+              "citation": 1876,
+              "title": "P-Tuning V2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks",
+              "authors": [
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Kaixuan Ji",
+                  "author_id": "63156db3cd729caec63751ed",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Yicheng Fu",
+                  "author_id": "62e8b59ed9f20422f0bffdad",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Weng Lam Tam",
+                  "author_id": "53f3198edabfae9a8442c41e",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Zhengxiao Du",
+                  "author_id": "5d415bcd7390bff0db7097f3",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Zhilin Yang",
+                  "author_id": "54094295dabfae450f4707e4",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "",
+                  "org_id": "",
+                  "email": ""
+                }
+              ],
+              "abstract": "Prompt tuning, which only tunes continuous prompts with a frozen language model, substantially reduces per-task storage and memory usage at training. However, in the context of NLU, prior work reveals that prompt tuning does not perform well for normal-sized pretrained models. We also find that existing methods of prompt tuning cannot handle hard sequence labeling tasks, indicating a lack of universality. We present a novel empirical finding that properly optimized prompt tuning can be universally effective across a wide range of model scales and NLU tasks. It matches the performance of finetuning while having only 0.1%-3% tuned parameters. Our method P-Tuning v2 is an implementation of Deep Prompt Tuning \\cite{li2021prefix,qin2021learning} optimized and adapted for NLU. Given the universality and simplicity of P-Tuning v2, we believe it can serve as an alternative to finetuning and a strong baseline for future research.Our code and data are released at https://github.com/THUDM/P-tuning-v2.",
+              "keywords": [
+                "Deep Learning",
+                "Language Modeling",
+                "Topic Modeling"
+              ],
+              "venue": "CoRR",
+              "year": 2021
+            },
+            {
+              "paper_id": "6054886a91e0116f82f2d77f",
+              "citation": 1660,
+              "title": "GPT Understands, Too",
+              "authors": [
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yanan Zheng",
+                  "author_id": "53f4383cdabfaee02acdb628",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhengxiao Du",
+                  "author_id": "5d415bcd7390bff0db7097f3",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Ming Ding",
+                  "author_id": "561d197f45cedb339803d282",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yujie Qian",
+                  "author_id": "60bd95524c775e049703e43a",
+                  "org": "MIT, Cambridge, MA USA",
+                  "org_id": "62331e350a6eb147dca8a7ec",
+                  "email": ""
+                },
+                {
+                  "author": "Zhilin Yang",
+                  "author_id": "54094295dabfae450f4707e4",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "zhiliny@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Tsinghua, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "Prompting a pretrained language model with natural language patterns has been proved effective for natural language understanding (NLU). However, our preliminary study reveals that manual discrete prompts often lead to unstable performance—e.g., changing a single word in the prompt might result in substantial performance drop. We propose a novel method P-Tuning that employs trainable continuous prompt embeddings in concatenation with discrete prompts. Empirically, P-Tuning not only stabilizes training by minimizing the gap between various discrete prompts, but also improves performance by a sizeable margin on a wide range of NLU tasks including LAMA and SuperGLUE. P-Tuning is generally effective for both frozen and tuned language models, under both the fully-supervised and few-shot settings.",
+              "keywords": [
+                "Pre-trained language models",
+                "Prompt tuning",
+                "Natural language understanding"
+              ],
+              "venue": "AI OPEN",
+              "year": 2024
+            },
+            {
+              "paper_id": "5390a4cc20f70186a0e75039",
+              "citation": 1385,
+              "title": "Social Influence Analysis in Large-Scale Networks.",
+              "authors": [
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Dept Comp Sci, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghau.edu.cn"
+                },
+                {
+                  "author": "Jimeng Sun",
+                  "author_id": "53f4d211dabfaeedd877fb9d",
+                  "org": "",
+                  "org_id": "",
+                  "email": "jimeng@us.ibm.com"
+                },
+                {
+                  "author": "Chi Wang",
+                  "author_id": "54451b41dabfae862da06b40",
+                  "org": "Tsinghua Univ, Dept Comp Sci, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zi Yang",
+                  "author_id": "543111cbdabfae8e15d23652",
+                  "org": "Tsinghua Univ, Dept Comp Sci, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                }
+              ],
+              "abstract": "In large social networks, nodes (users, entities) are influenced by others for various reasons. For example, the colleagues have strong influence on one's work, while the friends have strong influence on one's daily life. How to differentiate the social influences from different angles(topics)? How to quantify the strength of those social influences? How to estimate the model on real large networks? To address these fundamental questions, we propose Topical Affinity Propagation (TAP) to model the topic-level social influence on large networks. In particular, TAP can take results of any topic modeling and the existing network structure to perform topic-level influence propagation. With the help of the influence analysis, we present several important applications on real data sets such as 1) what are the representative nodes on a given topic? 2) how to identify the social influences of neighboring nodes on a particular node? To scale to real large networks, TAP is designed with efficient distributed learning algorithms that is implemented and tested under the Map-Reduce framework. We further present the common characteristics of distributed learning algorithms for Map-Reduce. Finally, we demonstrate the effectiveness and efficiency of TAP on real large data sets.",
+              "keywords": [
+                "Social Influence Analysis",
+                "Topical Affinity Propagation",
+                "Large-scale Network",
+                "Social Networks"
+              ],
+              "venue": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining",
+              "year": 2009
+            },
+            {
+              "paper_id": "6405a5bee368bb303e8c93ab",
+              "citation": 1285,
+              "title": "Parameter-efficient Fine-Tuning of Large-Scale Pre-Trained Language Models",
+              "authors": [
+                {
+                  "author": "Ning Ding",
+                  "author_id": "617a405b6750f848e90c6b17",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yujia Qin",
+                  "author_id": "5613ecaa45ce1e596329acab",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Guang Yang",
+                  "author_id": "62e8b5c5d9f20422f0c02a46",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Fuchao Wei",
+                  "author_id": "633401e12fedb730e39c2568",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zonghan Yang",
+                  "author_id": "53f47486dabfaec09f276eec",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yusheng Su",
+                  "author_id": "657a70370421653145a64d13",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Shengding Hu",
+                  "author_id": "63ab9cb7cb0eafdb3179c291",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yulin Chen",
+                  "author_id": "561e797445ce1e596492866d",
+                  "org": "Tsinghua Shenzhen International Graduate School, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Chi-Min Chan",
+                  "author_id": "6373bff8ec88d95668d9fa86",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Weize Chen",
+                  "author_id": "53f43751dabfaeb2ac05b337",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Jing Yi",
+                  "author_id": "63275d29a95e4d1d055887b9",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Weilin Zhao",
+                  "author_id": "6373f5f1ec88d95668db87eb",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Xiaozhi Wang",
+                  "author_id": "5619c19945ce1e5964492547",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhiyuan Liu",
+                  "author_id": "542a63f1dabfae646d55b020",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "liuzy@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Hai-Tao Zheng",
+                  "author_id": "5607997045cedb3396b0e49e",
+                  "org": "Tsinghua Shenzhen International Graduate School, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "zheng.haitao@sz.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Jianfei Chen",
+                  "author_id": "56cb189ec35f4f3c6565621f",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yang Liu",
+                  "author_id": "562506cd45cedb3398570152",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Juanzi Li",
+                  "author_id": "5619120945cedb3397d40ba0",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Maosong Sun",
+                  "author_id": "5429defadabfaec7081c26e4",
+                  "org": "Department of Computer Science and Technology, Tsinghua University, China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "sms@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "With the prevalence of pre-trained language models (PLMs) and the pre-training–fine-tuning paradigm, it has been continuously shown that larger models tend to yield better performance. However, as PLMs scale up, fine-tuning and storing all the parameters is prohibitively costly and eventually becomes practically infeasible. This necessitates a new branch of research focusing on the parameter-efficient adaptation of PLMs, which optimizes a small portion of the model parameters while keeping the rest fixed, drastically cutting down computation and storage costs. In general, it demonstrates that large-scale models could be effectively stimulated by the optimization of a few parameters. Despite the various designs, here we discuss and analyse the approaches under a more consistent and accessible term ‘delta-tuning’, where ‘delta’ a mathematical notation often used to denote changes, is borrowed to refer to the portion of parameters that are ‘changed’ during training. We formally describe the problem and propose a unified categorization criterion for existing delta-tuning methods to explore their correlations and differences. We also discuss the theoretical principles underlying the effectiveness of delta-tuning and interpret them from the perspectives of optimization and optimal control. Furthermore, we provide a holistic empirical study on over 100 natural language processing tasks and investigate various aspects of delta-tuning. With comprehensive study and analysis, our research demonstrates the theoretical and practical properties of delta-tuning in the adaptation of PLMs.",
+              "keywords": [
+                "Computer science",
+                "Electrical and electronic engineering",
+                "Engineering",
+                "general"
+              ],
+              "venue": "NATURE MACHINE INTELLIGENCE",
+              "year": 2023
+            },
+            {
+              "paper_id": "60cac58091e011b32937404d",
+              "citation": 1256,
+              "title": "Pre-trained Models: Past, Present and Future.",
+              "authors": [
+                {
+                  "author": "Xu Han",
+                  "author_id": "5432cd68dabfaeb5449aac63",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "hanxu17@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Zhengyan Zhang",
+                  "author_id": "64c0ebd4688ef0ffd383adda",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Ning Ding",
+                  "author_id": "617a405b6750f848e90c6b17",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "dingn18@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yuxian Gu",
+                  "author_id": "63e0d09ec861439b3001f86a",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "gu-yx17@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Xiao Liu",
+                  "author_id": "5d415c0c7390bff0db70c4ba",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "liuxiao17@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yuqi Huo",
+                  "author_id": "5d43d54f7390bff0db600fde",
+                  "org": "Renmin Univ China, Sch Informat, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": ""
+                },
+                {
+                  "author": "Jiezhong Qiu",
+                  "author_id": "562d41dd45cedb3398da2eba",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "qiujz16@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yuan Yao",
+                  "author_id": "560dab4a45cedb339760807f",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "yuan-yao18@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Ao Zhang",
+                  "author_id": "635100b2ac95af67f73c1e7e",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "aihuang@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Liang Zhang",
+                  "author_id": "66bdd013122fc595676c000c",
+                  "org": "Renmin Univ China, Sch Informat, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": "zhangliang00@ruc.edu.cn"
+                },
+                {
+                  "author": "Wentao Han",
+                  "author_id": "53f43751dabfaedce55376a1",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "hanwentao@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Minlie Huang",
+                  "author_id": "53f5afcbdabfae349df8045b",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Qin Jin",
+                  "author_id": "562d5a9945cedb3398dd2a7d",
+                  "org": "Renmin Univ China, Sch Informat, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": "qjin@ruc.edu.cn"
+                },
+                {
+                  "author": "Yanyan Lan",
+                  "author_id": "53f48107dabfaee43ed5798c",
+                  "org": "Tsinghua Univ, Inst AI Ind Res, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "lanyanyan@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Yang Liu",
+                  "author_id": "562506cd45cedb3398570152",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhiyuan Liu",
+                  "author_id": "542a63f1dabfae646d55b020",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Zhiwu Lu",
+                  "author_id": "560f416f45ce1e5961a7ef9c",
+                  "org": "Renmin Univ China, Gaoling Sch Artificial Intelligence, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": "luzhiwu@ruc.edu.cn"
+                },
+                {
+                  "author": "Xipeng Qiu",
+                  "author_id": "5487f3d0dabfae8a11fb3f13",
+                  "org": "Fudan Univ, Sch Comp Sci, Shanghai, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c861",
+                  "email": ""
+                },
+                {
+                  "author": "Ruihua Song",
+                  "author_id": "53f43364dabfaee0d9b4758b",
+                  "org": "Renmin Univ China, Gaoling Sch Artificial Intelligence, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": "songruihua_bloon@outlook.com"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                },
+                {
+                  "author": "Ji-Rong Wen",
+                  "author_id": "53f4b5bfdabfaedd74eba680",
+                  "org": "Renmin Univ China, Gaoling Sch Artificial Intelligence, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": ""
+                },
+                {
+                  "author": "Jinhui Yuan",
+                  "author_id": "5448bdd0dabfae1e04137c3e",
+                  "org": "OneFlow Inc, Beijing, Peoples R China",
+                  "org_id": "",
+                  "email": "yuanjinhui@oneflow.org"
+                },
+                {
+                  "author": "Wayne Xin Zhao",
+                  "author_id": "53f47180dabfaeee22a7ca8f",
+                  "org": "Renmin Univ China, Gaoling Sch Artificial Intelligence, Beijing, Peoples R China",
+                  "org_id": "5f71b2b11c455f439fe3d913",
+                  "email": ""
+                },
+                {
+                  "author": "Jun Zhu",
+                  "author_id": "54451a32dabfae862da06273",
+                  "org": "Tsinghua Univ, Dept Comp Sci & Technol, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                }
+              ],
+              "abstract": "Large-scale pre-trained models (PTMs) such as BERT and GPT have recently achieved great success and become a milestone in the field of artificial intelligence (AI). Owing to sophisticated pre-training objectives and huge model parameters, large-scale PTMs can effectively capture knowledge from massive labeled and unlabeled data. By storing knowledge into huge parameters and fine-tuning on specific tasks, the rich knowledge implicitly encoded in huge parameters can benefit a variety of downstream tasks, which has been extensively demonstrated via experimental verification and empirical analysis. It is now the consensus of the AI community to adopt PTMs as backbone for downstream tasks rather than learning models from scratch. In this paper, we take a deep look into the history of pre-training, especially its special relation with transfer learning and self-supervised learning, to reveal the crucial position of PTMs in the AI development spectrum. Further, we comprehensively review the latest breakthroughs of PTMs. These breakthroughs are driven by the surge of computational power and the increasing availability of data, towards four important directions: designing effective architectures, utilizing rich contexts, improving computational efficiency, and conducting interpretation and theoretical analysis. Finally, we discuss a series of open problems and research directions of PTMs, and hope our view can inspire and advance the future study of PTMs.",
+              "keywords": [
+                "Pre-trained models",
+                "Language models",
+                "Transfer learning",
+                "Self-supervised learning",
+                "Natural language processing",
+                "Multimodal processing",
+                "Artificial intelligence"
+              ],
+              "venue": "AI OPEN",
+              "year": 2021
+            },
+            {
+              "paper_id": "5eede0b091e0116a23aafbd3",
+              "citation": 1220,
+              "title": "GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training",
+              "authors": [
+                {
+                  "author": "Jiezhong Qiu",
+                  "author_id": "562d41dd45cedb3398da2eba",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "qiuzz16@mails.tsinghua.edu.cn"
+                },
+                {
+                  "author": "Qibin Chen",
+                  "author_id": "56108b0745ce1e596227c219",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Yuxiao Dong",
+                  "author_id": "53f471e2dabfaee02adc1c13",
+                  "org": "Microsoft Res, Redmond, WA USA",
+                  "org_id": "5f71b2831c455f439fe3c634",
+                  "email": "yuxdong@microsoft.com"
+                },
+                {
+                  "author": "Jing Zhang",
+                  "author_id": "53f48d0adabfaea88777b455",
+                  "org": "Remin Univ, Beijing, Peoples R China",
+                  "org_id": "",
+                  "email": "zhang-jing@ruc.edu.cn"
+                },
+                {
+                  "author": "Hongxia Yang",
+                  "author_id": "560590d745ce1e595e69ce3f",
+                  "org": "Alibaba Grp, DAMO Acad, Hangzhou, Peoples R China",
+                  "org_id": "5f71b63a1c455f439fe566c4",
+                  "email": "yang.yhx@alibaba-inc.com"
+                },
+                {
+                  "author": "Ming Ding",
+                  "author_id": "561d197f45cedb339803d282",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": ""
+                },
+                {
+                  "author": "Kuansan Wang",
+                  "author_id": "53f46bafdabfaee43ed0b82f",
+                  "org": "Microsoft Res, Redmond, WA USA",
+                  "org_id": "5f71b2831c455f439fe3c634",
+                  "email": "kuansan.wang@microsoft.com"
+                },
+                {
+                  "author": "Jie Tang",
+                  "author_id": "53f46a3edabfaee43ed05f08",
+                  "org": "Tsinghua Univ, Beijing, Peoples R China",
+                  "org_id": "5f71b2881c455f439fe3c860",
+                  "email": "jietang@tsinghua.edu.cn"
+                }
+              ],
+              "abstract": "Graph representation learning has emerged as a powerful technique for addressing real-world problems. Various downstream graph learning tasks have benefited from its recent developments, such as node classification, similarity search, and graph classification. However, prior arts on graph representation learning focus on domain specific problems and train a dedicated model for each graph dataset, which is usually non-transferable to out-of-domain data. Inspired by the recent advances in pre-training from natural language processing and computer vision, we design Graph Contrastive Coding (GCC) --- a self-supervised graph neural network pre-training framework --- to capture the universal network topological properties across multiple networks. We design GCC's pre-training task as subgraph instance discrimination in and across networks and leverage contrastive learning to empower graph neural networks to learn the intrinsic and transferable structural representations. We conduct extensive experiments on three graph learning tasks and ten graph datasets. The results show that GCC pre-trained on a collection of diverse datasets can achieve competitive or better performance to its task-specific and trained-from-scratch counterparts. This suggests that the pre-training and fine-tuning paradigm presents great potential for graph representation learning.",
+              "keywords": [
+                "graph representation learning",
+                "graph neural networks",
+                "graph pre-training",
+                "self-supervised learning",
+                "contrastive learning"
+              ],
+              "venue": "KDD '20 PROCEEDINGS OF THE 26TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY & DATA MINING",
+              "year": 2020
+            }
+          ]
+        }
+      }
+    ],
+    "summary": "{\n\"answer\": \"清华大学计算机系教授唐杰（Jie Tang）在学术研究中拥有广泛的合作者，涵盖数据挖掘、社交网络分析及大模型预训练等领域。根据提供的数据，他的主要合作者包括：\\n\\n1. **大模型与预训练研究（GLM, P-Tuning等）**：与 **Xiao Liu (刘潇)** [2][3][4][5][6][9]、**Zhengxiao Du (杜政晓)** [3][4][5][6]、**Zhilin Yang (杨植麟)** [3][4][5][6] 以及 **Ming Ding (丁铭)** [3][6][10] 有深入合作，共同发表了多篇关于 GLM、P-Tuning 及自监督学习的论文。\\n2. **图神经网络与数据挖掘**：与 **Jing Zhang (张静)** [1][2][10]（合作 ArnetMiner 及图编码研究）、**Jiezhong Qiu (邱杰中)** [3][9][10]（合作 GCC 等）、**Yuxiao Dong (董宇晓)** [10] 以及 **Jimeng Sun** [7] 等有密切合作。\\n3. **自然语言处理与知识图谱**：与 **Zhiyuan Liu (刘知远)** [8][9]、**Juanzi Li (李涓子)** [1][8]、**Maosong Sun (孙茂松)** [8]、**Minlie Huang (黄民烈)** [9] 及 **Jun Zhu (朱军)** [9] 等在预训练模型综述及微调技术方面共同开展研究。\",\n\"reference\": {\n\"[1]\": \"https://www.aminer.cn/pub/5390a05a20f70186a0e4a81d\",\n\"[2]\": \"https://www.aminer.cn/pub/5ee8986f91e011e66831c59b\",\n\"[3]\": \"https://www.aminer.cn/pub/6054872891e0116f82f2d766\",\n\"[4]\": \"https://www.aminer.cn/pub/628749175aee126c0ffe1dc1\",\n\"[5]\": \"https://www.aminer.cn/pub/6168f1a35244ab9dcbe2ffc6\",\n\"[6]\": \"https://www.aminer.cn/pub/6054886a91e0116f82f2d77f\",\n\"[7]\": \"https://www.aminer.cn/pub/5390a4cc20f70186a0e75039\",\n\"[8]\": \"https://www.aminer.cn/pub/6405a5bee368bb303e8c93ab\",\n\"[9]\": \"https://www.aminer.cn/pub/60cac58091e011b32937404d\",\n\"[10]\": \"https://www.aminer.cn/pub/5eede0b091e0116a23aafbd3\"\n}\n}"
+  }
+]

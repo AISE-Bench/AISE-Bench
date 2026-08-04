@@ -1,0 +1,30 @@
+[
+  [
+    {
+      "fn_call": {
+        "name": "search_paper_id",
+        "parameters": {
+          "use_topic": true
+        }
+      },
+      "tool_results": {
+        "error": "Cannot run the event loop while another loop is running"
+      },
+      "status_code": -1,
+      "score": -1
+    },
+    {
+      "fn_call": {
+        "name": "search_paper_id",
+        "parameters": {
+          "use_topic": true
+        }
+      },
+      "tool_results": {
+        "error": "Cannot run the event loop while another loop is running"
+      },
+      "status_code": -1,
+      "score": -1
+    }
+  ]
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 3,
+    "question": "研究Tensor Factorization领域的Kejing Yin发表论文的数量"
+  },
+  {
+    "id": 12,
+    "question": "我想深度了解一下肿瘤的成因和致病机理"
+  },
+  {
+    "id": 25,
+    "question": "贺灿飞的研究方向有哪些"
+  },
+  {
+    "id": 39,
+    "question": "我想阅读一些point cloud分类和分割相关的代表性文章"
+  },
+  {
+    "id": 43,
+    "question": "关于自我用药与疾病风险的关系的论文或期刊"
+  },
+  {
+    "id": 56,
+    "question": "骨科学SCI一区期刊"
+  },
+  {
+    "id": 60,
+    "question": "夹竹桃中毒的相关论文"
+  },
+  {
+    "id": 61,
+    "question": "我需要强化学习的到终点的奖励设计的文献"
+  },
+  {
+    "id": 62,
+    "question": "详细介绍一般的哈希与生物哈希"
+  },
+  {
+    "id": 63,
+    "question": "五年内企业数字化转型主要研究领域"
+  },
+  {
+    "id": 76,
+    "question": "推荐一些自清洁涂层在光伏电站应用的英文文献"
+  },
+  {
+    "id": 84,
+    "question": "侯丽华在长春工程学院的主要研究方向是什么？"
+  },
+  {
+    "id": 92,
+    "question": "我想研究导弹制导系统发展历史"
+  },
+  {
+    "id": 97,
+    "question": "关于避税或税收筹划的主题有吗？"
+  },
+  {
+    "id": 100,
+    "question": "盾构技术在中国式现代化中的作用和影响"
+  },
+  {
+    "id": 101,
+    "question": "固态电池最新的研究方向"
+  },
+  {
+    "id": 110,
+    "question": "Could you name a few researchers at OpenAI?"
+  },
+  {
+    "id": 111,
+    "question": "Could you name a few researchers at Zhejiang University whose studies are about large language models?"
+  },
+  {
+    "id": 115,
+    "question": "Geoffrey Hinton 发表的最有影响力的论文是哪一篇？"
+  },
+  {
+    "id": 116,
+    "question": "Geoffrey Hinton在哪个期刊上投过稿"
+  },
+  {
+    "id": 121,
+    "question": "How many papers has Tsinghua University's Jie Tang published?"
+  },
+  {
+    "id": 127,
+    "question": "Jian Pei 在KDD从2019到2023年历年的发文数量"
+  },
+  {
+    "id": 170,
+    "question": "为我搜索一些有关DNS缓存投毒（或DNS缓存污染）的论文，要求为CCF A级的文章。"
+  },
+  {
+    "id": 175,
+    "question": "光通信领域有哪些高被引学者？他们各自的最具影响力的论文是什么？"
+  },
+  {
+    "id": 185,
+    "question": "北航王德庆是否担任过重要的学术职务，例如学术期刊的主编或编委？"
+  },
+  {
+    "id": 194,
+    "question": "国防科技大学怎么样，学术水平如何"
+  },
+  {
+    "id": 197,
+    "question": "大陆从事性别研究的学者"
+  },
+  {
+    "id": 201,
+    "question": "帮我找一下Hinton教授的最新论文？"
+  },
+  {
+    "id": 202,
+    "question": "广告行业中哪些学者发表了最多的论文？"
+  },
+  {
+    "id": 209,
+    "question": "我想研究“费正清的中国政治制度研究”"
+  },
+  {
+    "id": 218,
+    "question": "查询Demis Hassabis引用最高的论文"
+  },
+  {
+    "id": 219,
+    "question": "查询Geoffrey E. Hinton的履历"
+  },
+  {
+    "id": 229,
+    "question": "清华大学李涓子老师的合作者都在研究什么方向？"
+  },
+  {
+    "id": 235,
+    "question": "研究Social Media领域的Kyumin Lee是哪个机构的"
+  },
+  {
+    "id": 261,
+    "question": "黄希庭教授在时间认知方面的研究都分那几个领域？有没有针对提高时间管理能力水平的研究"
+  },
+  {
+    "id": 266,
+    "question": "Department of Computer Science, School of Computing, National University of Singapore有哪些研究者？"
+  },
+  {
+    "id": 267,
+    "question": "Dequan Wang、Zhiqiang Shen、Jie Shao、Wei Zhang、Xiangyang Xue和Zheng Zhang。详细说明各个学者的方向 并简单说明"
+  },
+  {
+    "id": 272,
+    "question": "College of Information Sciences and Technology, Pennsylvania State University的Limeng Cui的职称是？"
+  },
+  {
+    "id": 274,
+    "question": "研究Graph Edit Distance领域的Yunsheng Bai的被引用量是多少？"
+  },
+  {
+    "id": 284,
+    "question": "中国人民大学 严睿 简介"
+  },
+  {
+    "id": 301,
+    "question": "陈雷在vldb上引用最高的论文"
+  },
+  {
+    "id": 310,
+    "question": "燕山大学 闫敬 英文论文"
+  },
+  {
+    "id": 315,
+    "question": "Recommender Systems领域的Bin Liu的代表作的被哪个期刊或会议收录？"
+  },
+  {
+    "id": 343,
+    "question": "Department of Computer Science and Technology, Tsinghua University的Yinpeng Dong的代表作的作者有哪些？"
+  },
+  {
+    "id": 358,
+    "question": "南京航空航天大学经济与管理学院赵亚普老师的研究方向和代表论文有哪些?"
+  },
+  {
+    "id": 364,
+    "question": "关于华中师范大学郭元祥教授关于深度教学方面的研究"
+  },
+  {
+    "id": 398,
+    "question": "Microsoft的H M Sajjad Hossain的合作者中有哪些在研究Activity Recognition领域？"
+  },
+  {
+    "id": 400,
+    "question": "PPSN属于什么水平"
+  },
+  {
+    "id": 412,
+    "question": "重庆交通大学袁小亚教授论文"
+  },
+  {
+    "id": 415,
+    "question": "Cellular Networks领域的Zhihan Fang的代表作的被哪个期刊或会议收录？"
+  },
+  {
+    "id": 418,
+    "question": "Language and Brain Lab, Department of Linguistics, Simon Fraser University的Yue Wang的代表作的发表年份是哪年？"
+  },
+  {
+    "id": 444,
+    "question": "中国海洋大学韩勇老师近五年参与的论文"
+  },
+  {
+    "id": 446,
+    "question": "How is the trend of Zhang Fanjin’s publications at KDD?"
+  },
+  {
+    "id": 464,
+    "question": "OpenAI的Ilya Sutskever的合作者的简介？"
+  },
+  {
+    "id": 469,
+    "question": "OpenAI的Ilya Sutskever的合作者有哪些不是OpenAI的？"
+  },
+  {
+    "id": 475,
+    "question": "Machine Learning System领域的Toshihiko Yanase的代表作的被哪个期刊或会议收录？"
+  },
+  {
+    "id": 482,
+    "question": "李飛飛有哪些学术成就，请给我介绍一下她的最高引论文"
+  },
+  {
+    "id": 487,
+    "question": "清华大学李涓子老师的研究方向详细介绍"
+  },
+  {
+    "id": 489,
+    "question": "Shenzhen Institute of Future Media Technology, Shenzhen International Graduate School, Tsinghua University的Yuanhao Cai的合作者中有哪些在研究Low-level Vision领域？"
+  },
+  {
+    "id": 490,
+    "question": "Computer Science Department, Carnegie Mellon University的Brian Hu Zhang的代表作的被引用量是多少？"
+  },
+  {
+    "id": 501,
+    "question": "华北电力大学的杨静教授"
+  },
+  {
+    "id": 504,
+    "question": "清华大学李涓子老师的典型论文有哪些？"
+  },
+  {
+    "id": 508,
+    "question": "那在电子电路和系统发展中有哪些重要人物"
+  },
+  {
+    "id": 513,
+    "question": "三峡大学伍学谦的研究方向"
+  },
+  {
+    "id": 519,
+    "question": "张大庆关于无线感知的最新论文"
+  },
+  {
+    "id": 521,
+    "question": "中国人民大学 张积家 研究方向"
+  },
+  {
+    "id": 522,
+    "question": "Meta Platforms, Inc的Tengyu Xu的职称是？"
+  },
+  {
+    "id": 525,
+    "question": "同济大学刘志勇的学术论文有哪些"
+  },
+  {
+    "id": 534,
+    "question": "清华大学唐杰的代表作是哪一年发表的"
+  },
+  {
+    "id": 535,
+    "question": "Kaiming He 发布的论文和著作包括："
+  },
+  {
+    "id": 541,
+    "question": "在清华大学，唐杰的合作者中有谁在研究知识图谱领域"
+  },
+  {
+    "id": 544,
+    "question": "Computational Complexity领域的D. Sivakumar是男士还是女士？"
+  },
+  {
+    "id": 584,
+    "question": "Institute of Atmospheric Sciences, Fudan University的Yijun Zhang是男士还是女士？"
+  },
+  {
+    "id": 588,
+    "question": "Embedded System领域的Rajesh K. Gupta的代表作的摘要是？"
+  },
+  {
+    "id": 591,
+    "question": "Weiying Ma 相关文章简介"
+  },
+  {
+    "id": 592,
+    "question": "湖南大学王耀南"
+  },
+  {
+    "id": 608,
+    "question": "Gaoling School of Artificial Intelligence, Renmin University of China的Hongteng Xu的职称是？"
+  },
+  {
+    "id": 631,
+    "question": "推荐黄铁军关于视觉的论文"
+  },
+  {
+    "id": 653,
+    "question": "Indiana University Purdue University indianapolis的Mohammad Al Hasan的代表作的作者有哪些？"
+  },
+  {
+    "id": 670,
+    "question": "Ilya Sutskever 与谁合作完成了他的代表作？"
+  },
+  {
+    "id": 682,
+    "question": "Department of Computer Science, University of California Santa Barbara的Xifeng Yan的代表作的摘要是？"
+  },
+  {
+    "id": 701,
+    "question": "School of Computing, National University of Singapore的Hengguan Huang的代表作的被引用量是多少？"
+  },
+  {
+    "id": 712,
+    "question": "陈雷2010到2023在大数据领域发表的论文有哪些"
+  },
+  {
+    "id": 713,
+    "question": "Lab of Media and Network, Department of Computer Science and Technology, Tsinghua University的Peng Cui的代表作的被哪个期刊或会议收录？"
+  },
+  {
+    "id": 733,
+    "question": "Can you introduce the first author of the PaLM 2 Technical Report?"
+  },
+  {
+    "id": 735,
+    "question": "吴丁财的合作学者有哪些"
+  },
+  {
+    "id": 745,
+    "question": "Ilya Sutskever与Nitish Srivastava、Geoffrey E. Hinton、Alex Krizhevsky以及Ruslan Salakhutdinov一起完成的作品是什么？"
+  },
+  {
+    "id": 758,
+    "question": "人工智能领域大牛学者"
+  },
+  {
+    "id": 762,
+    "question": "Department of Computer Science, University College London的Mingtian Zhang的代表作的发表年份是哪年？"
+  },
+  {
+    "id": 767,
+    "question": "机器学习系统领域（MLSys）有哪些顶级的实验室呢"
+  },
+  {
+    "id": 781,
+    "question": "What are the academic honors of the author of \"Effective Seed-Guided Topic Discovery by Integrating Multiple Types of Contexts\"?"
+  },
+  {
+    "id": 795,
+    "question": "School of Computer Science and Engineering, University of Electronic Science and Technology of China的Qiao Liu的代表作的发表年份是哪年？"
+  },
+  {
+    "id": 825,
+    "question": "人机交互领域的期刊有哪些？并根据这些期刊整理最热门的10个关键词"
+  },
+  {
+    "id": 831,
+    "question": "查找系统架构领域或者涉及Petri网或业务流程等信息系统领域的期刊"
+  },
+  {
+    "id": 840,
+    "question": "请推荐55个智能物流的大牛学者，包含学者姓名、邮箱、研究领域、单位"
+  },
+  {
+    "id": 896,
+    "question": "我想了解一下目前国内做图神经网络及相关领域的导师或课题组"
+  },
+  {
+    "id": 901,
+    "question": "智谱 AI 最近三年在顶会发布过哪些论文"
+  },
+  {
+    "id": 915,
+    "question": "sigmod2023中数据库系统领域的专家引用最高的是哪一位 answer in Chinese."
+  },
+  {
+    "id": 931,
+    "question": "查询有关研究Distributed Acoustic Sensing领域专家大牛，排名前十"
+  },
+  {
+    "id": 966,
+    "question": "AICHE是顶刊吗"
+  },
+  {
+    "id": 975,
+    "question": "Erik van Sebille在海洋微塑料领域的主要研究方向以及重点研究内容"
+  },
+  {
+    "id": 986,
+    "question": "列出国内外最新关于毕赤酵母菌株本身的理解、以及应用"
+  },
+  {
+    "id": 1005,
+    "question": "What are the latest research papers on recommend system at KDD in 2024? List 5 papers with their first authors."
+  },
+  {
+    "id": 1007,
+    "question": "Which articles of KDD 2024 with more than 10 citations are from Tsinghua University? List 10 papers and their links."
+  },
+  {
+    "id": 1008,
+    "question": "The papers published by Peng Cui at KDD 2023"
+  },
+  {
+    "id": 1012,
+    "question": "zhipu AI 公司在kdd上发表的论文"
+  },
+  {
+    "id": 1032,
+    "question": "“媒介技术的发展对地域影像的表现方式产生了深远的影响，特别是在网络剧和微短剧等新兴媒介中，地域影像的表现手法更加灵活。请帮我依托以上的表述去帮我检索相关的中文和国内的论文及专著吧"
+  },
+  {
+    "id": 1046,
+    "question": "A survey on large language model based autonomous agents 这篇论文中的profile是指什么，关于profile的研究现状是什么"
+  },
+  {
+    "id": 1050,
+    "question": "2023年基因疾病领域被引量最高的10篇论文中，哪些作者的合作关系最为紧密？不是Genes & Diseases 期刊，是领域"
+  },
+  {
+    "id": 1051,
+    "question": "智能机器人领域目前有哪些重要的研究机构和团队？"
+  },
+  {
+    "id": 1054,
+    "question": "2024年跨媒介叙事领域有哪些新兴的研究趋势？"
+  },
+  {
+    "id": 1059,
+    "question": "Bytedance AI Lab有哪些人与Xinghua Qu是合作关系？"
+  },
+  {
+    "id": 1065,
+    "question": "Genes & Diseases 2024关于cancer的论文有哪些 最高引得10，并给我推荐一下 最高引这篇论文的相关的论文"
+  },
+  {
+    "id": 1072,
+    "question": "Text-to-SQL创新点及其实验以及代码"
+  },
+  {
+    "id": 1082,
+    "question": "帮我搜索关于边界模糊 小区域的医学图像分割的顶级前沿期刊论文或者会议论文 同时附上各个论文的来源和连接"
+  },
+  {
+    "id": 1084,
+    "question": "帮我搜索近5年来，有关非洲猪瘟的综述，请按照引用次数进行排序"
+  },
+  {
+    "id": 1086,
+    "question": "帮我搜索几篇近五年的关于mysql 或者 sql 的论文"
+  },
+  {
+    "id": 1091,
+    "question": "帮我找管理学领域顶级期刊的目录，我想知道大家都在研究什么"
+  },
+  {
+    "id": 1103,
+    "question": "查找智能诊断、故障诊断、机电耦合系统、增程式无极变速系统相关的论文，以Ndt&E International、Journal of Nondestructive Evaluation、Nondestructive Testing and Evaluation和Ultrasonics等期刊5年内的论文为主。"
+  },
+  {
+    "id": 1114,
+    "question": "多模态非线性显微成像领域的主要研究机构和团队有哪些？"
+  },
+  {
+    "id": 1135,
+    "question": "关于土壤健康方面的最新研究论文，有哪些学者或机构在该领域发表了重要成果？"
+  },
+  {
+    "id": 1156,
+    "question": "哪些文献提出过类似的观点：在全球化时代的数字化浪潮中，数字技术以其巨大的变革潜能，正引领人类社会步入一个全新的数字化时代。"
+  },
+  {
+    "id": 1158,
+    "question": "请帮我查找几篇近五年的自然灾害领域相关的nature climate change期刊/nature sustainability期刊/nature communication期刊上的文章，并帮我总结文章的变量和数据来源"
+  },
+  {
+    "id": 1161,
+    "question": "请帮我找在DNA损失修复和合成致死领域有深入学术研究的中国高校教授/副教授～​关注肿瘤领域，目标靶向关注：PARG，WRN，ATR，POLQ等"
+  },
+  {
+    "id": 1207,
+    "question": "此外，有研究表明椎间盘在不均匀应力下易发生退变，尤其是在腰椎前凸角度异常时。找到相关文献"
+  },
+  {
+    "id": 1211,
+    "question": "激光清洗方向的大牛团队"
+  },
+  {
+    "id": 1338,
+    "question": "如何基于MIMO天线阵列在NLOS场景下采集的多用户信道信息（包括各天线接收的子载波数据），提取与环境强相关的高稳态特征，并探索其在信道图谱（channel charting）中的应用？"
+  },
+  {
+    "id": 1340,
+    "question": "中国矿业大学陈世起与冯秀娟教授的研究领域及学术贡献是什么？"
+  },
+  {
+    "id": 1357,
+    "question": "What is the total number of papers published by Mu Li (also known as Muli or Li Mu) at NeurIPS 2022, and what are their respective titles and research contributions?"
+  },
+  {
+    "id": 1359,
+    "question": "如何从学术影响力维度（如学者国籍分布、论文引用量及关联期刊）比较ACL2023与KDD2023等顶级国际会议的学术生态特征？"
+  },
+  {
+    "id": 1368,
+    "question": "\"国际上（特别是美国）有哪些知名研究团队、机构或联合所在开展环境健康暴露与污染物暴露相关的研究？\""
+  },
+  {
+    "id": 1371,
+    "question": "\"偶像崇拜对个体心理韧性的形成与发展有何影响？\""
+  },
+  {
+    "id": 1459,
+    "question": "请提供关于论文《The C. elegans Heterochronic Gene lin-4 Encodes Small RNAs with Antisense Complementarity to》的研究综述，包括其主要研究内容、核心结论以及论文的学术框架纲要。"
+  },
+  {
+    "id": 1471,
+    "question": "如何比较兰州交通大学的孙小伟和Ilya Sutskever在各自研究领域的主要学术贡献及研究方向差异？"
+  },
+  {
+    "id": 1489,
+    "question": "请推荐近年来低轨卫星领域中引用量最高的10篇热门综述文章，并按研究主题进行分类，同时提供这些论文的学术影响力分析。"
+  },
+  {
+    "id": 1526,
+    "question": "在储蓄动机（saving motives）研究领域中，最具学术影响力且论文被引用次数最多的核心学者有哪些？"
+  },
+  {
+    "id": 1540,
+    "question": "南京大学张效伟教授团队近期发表的关于环境DNA（eDNA）研究的高分文章有哪些？其研究重点和学术贡献是什么？"
+  },
+  {
+    "id": 1543,
+    "question": "请提供张文菊团队在土壤微生物营养限制与土壤健康领域的最新研究进展，包括其发表的综述性文献、最新论文的研究方向、发表期刊及该领域的其他重要学者或机构的研究成果。"
+  },
+  {
+    "id": 1544,
+    "question": "请推荐近两年在土壤健康与环境科学交叉领域的高被引研究文献，并简要说明其学术价值。"
+  },
+  {
+    "id": 1549,
+    "question": "请列举大模型（LLM）领域中具有重要学术价值和影响力的核心研究论文及其关键贡献。"
+  },
+  {
+    "id": 1562,
+    "question": "在变形链球菌的口腔致龋机制研究中，哪些关键学术论文（特别是高被引文献）及核心学者对该领域的发展产生了重要影响？"
+  },
+  {
+    "id": 1662,
+    "question": "如何基于论文《A Robust Tracking Algorithm Based on Modified Generalized Probability Data Association for Wireless Sensor Network》的引言背景和核心内容，对其研究方法与理论贡献进行系统性分析？"
+  },
+  {
+    "id": 1691,
+    "question": "导弹制导控制领域当前的研究热点、前沿趋势及代表性文献有哪些？这一领域存在哪些值得深入探索的关键科学问题和技术挑战？"
+  },
+  {
+    "id": 1709,
+    "question": "\"请提供三一重工的企业基本信息及其相关学术研究链接（如AMiner等学术平台）的整合分析。\""
+  },
+  {
+    "id": 1791,
+    "question": "请找出Jian Pei教授从2010年到2020年在KDD会议上发表的所有论文，并列出论文标题和合作者。"
+  },
+  {
+    "id": 1797,
+    "question": "全国产生的液体畜禽粪污是目前消纳的难点，原因是什么，找相关的文献（盛婧老师在水稻上面做的研究）"
+  },
+  {
+    "id": 1807,
+    "question": "人工智能领域是否存在类似于通信行业从2G到3G、3G到4G的技术范式转变？"
+  },
+  {
+    "id": 1947,
+    "question": "无人机顶刊"
+  },
+  {
+    "id": 1960,
+    "question": "Computer vision-based concrete crack detection using U-net fully convolutional networks (2019)这是个几区论文"
+  },
+  {
+    "id": 1976,
+    "question": "我是研究生新生，即将开始可飞行可地面的球形机器人的研究，给我推荐几篇最近三年的相关综述，要外文的，且来自权威期刊，便于我入门学习"
+  }
+]

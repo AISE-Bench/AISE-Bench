@@ -1,0 +1,20 @@
+---
+【search_venue_detail】根据期刊ID获取期刊详情
+输入：
+    ids：[str,str, ...]  #id列表
+输出：
+alias	array	别名
+category_id	string	学科领域id
+classes	array	数据源
+id	string	id
+issn	string	ISSN
+lower_alias	array	别名（小写）
+name	string	姓名
+name_en	string	机构英文名称
+name_zh	string	中文名
+num	float	优先权号
+quartile	string	分区
+source_quartiles	array	源分区
+total	float	总数
+type	string	分类体系
+url	string	来源url    

@@ -1,0 +1,9 @@
+{"function_name": "search_paper_id", "parameters": ["titles", "keywords", "years", "is_sci", "language", "sort", "author", "author_id", "coauthors", "org", "org_id", "venues", "venue_ids", "size"], "return": ["paper_id", "title"]}
+{"function_name": "search_paper_detail", "parameters": ["paper_ids"], "return": ["paper_id", "title", "abstract", "year", "citation", "keywords", "authors", "org", "org_id", "venue"]}
+{"function_name": "search_author_id", "parameters": ["name", "org", "size", "interest", "nation", "order", "asc"], "return": ["author_id", "name", "org"]}
+{"function_name": "search_author_detail", "parameters": ["author_ids"], "return": ["author_id", "name", "org", "interest", "papers"]}
+{"function_name": "search_venue_id", "parameters": ["name", "category", "category_source", "quartile", "keywords", "size"], "return": ["venue_id", "name"]}
+{"function_name": "search_venue_detail", "parameters": ["ids"], "return": ["id", "name", "alias", "category_id", "quartile", "url"]}
+{"function_name": "search_org_id", "parameters": ["orgs"], "return": ["org_id", "name"]}
+{"function_name": "search_org_detail", "parameters": ["ids"], "return": ["id", "name", "introduction", "type", "established"]}
+{"function_name": "search_paper_id_gs", "parameters": ["query"], "return": ["paper_id", "title"]}

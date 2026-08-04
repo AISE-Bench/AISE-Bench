@@ -1,0 +1,31 @@
+[
+  {
+    "category": "academic",
+    "name": "search_paper_id",
+    "description": "The 'search_paper_id' tool is designed to assist users in locating academic papers by returning their IDs based on specified search criteria. Users must provide a list of keywords related to the paper's topic as a required parameter. Optional parameters allow users to refine their search by filtering papers based on publication years, coauthors, authors, organizations, language, and whether the paper is SCI-indexed. Users can also specify the number of results, sorting preferences (such as by citation count or publication date), and filter by specific journals or conferences. The tool can prioritize results based on language and sort them by various criteria, such as citation count or publication date. The output is a list of paper IDs that match the search criteria.",
+    "required_parameters": {
+      "keywords": "论文关键词列表"
+    },
+    "optional_parameters": {
+      "years": "发表年份列表",
+      "size": "返回结果数量",
+      "coauthors": "共同作者列表",
+      "is_sci": "是否为SCI论文",
+      "language": "论文语言",
+      "sort": "排序方式",
+      "author": "作者姓名",
+      "author_id": "作者ID",
+      "org": "机构名称",
+      "org_id": "机构ID",
+      "venues": "期刊或会议列表",
+      "venue_ids": "期刊或会议ID列表"
+    },
+    "optimization_history": [
+      "根据关键词搜索论文ID",
+      "The 'search_paper_id' tool is designed to facilitate the search for academic papers by returning their IDs based on specified criteria. Users can input a list of keywords related to the paper's topic as a required parameter. Optional parameters allow for further refinement of the search, including filtering by publication years, limiting results to SCI-indexed papers, specifying the number of results, and filtering by coauthors, authors, organizations, language, sorting preferences, and specific journals or conferences. The output is a list of paper IDs that match the search criteria.",
+      "The 'search_paper_id' tool is designed to assist users in finding academic papers by returning their IDs based on specified search criteria. Users must provide a list of keywords related to the paper's topic as a required parameter. Optional parameters enable users to refine their search by filtering papers based on publication years, coauthors, authors, organizations, language, and whether the paper is SCI-indexed. Users can also specify the number of results, sorting preferences (such as by citation count), and filter by specific journals or conferences. The tool is capable of prioritizing results based on language and sorting them by citation count, as demonstrated in user queries. The output is a list of paper IDs that match the search criteria.",
+      "The 'search_paper_id' tool is designed to assist users in locating academic papers by returning their IDs based on specified search criteria. Users must provide a list of keywords related to the paper's topic as a required parameter. Optional parameters allow users to refine their search by filtering papers based on publication years, coauthors, authors, organizations, language, and whether the paper is SCI-indexed. Users can also specify the number of results, sorting preferences (such as by citation count or publication date), and filter by specific journals or conferences. The tool can prioritize results based on language and sort them by various criteria, such as citation count or publication date. The output is a list of paper IDs that match the search criteria."
+    ],
+    "optimization_rounds": 3
+  }
+]
